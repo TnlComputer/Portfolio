@@ -45,5 +45,5 @@ buttons.addEventListener("click", (e) => {
 });
 
 window.addEventListener("DOMContentLoaded", () => {
-  footerCopy.textContent = `DorianDesings ${new Date().getFullYear()}`;
+  footerCopy.textContent = `TnlComputer ${new Date().getFullYear()}`;
 });
