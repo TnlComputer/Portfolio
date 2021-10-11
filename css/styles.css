@@ -122,7 +122,8 @@ img {
 
   .column--right {
     grid-template-columns: repeat(3, 1fr);
-    align-items: start;
+    /* si quiero que se ajuste a los item  agrego align-items: start; */
+    /* align-items: start; */
   }
 }
 
