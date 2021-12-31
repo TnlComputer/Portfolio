@@ -1,7 +1,7 @@
 const toggleTheme = document.getElementById("toggle-theme");
 const toggleIcon = document.getElementById("toggle-icon");
 const toggleText = document.getElementById("toggle-text");
-const toggleColor = document.getElementById("toggle-color");
+const toggleColor = document.getElementById("toggle-colors");
 
 const buttons = document.getElementById("buttons");
 const textsToChange = document.querySelectorAll("[data-section]");
@@ -37,12 +37,12 @@ const changeLanguage = async (language) => {
   }
 };
 
-buttons.addEventListener("click", (e) => {
-  const language = e.target.dataset.language;
-  if (language) {
-    changeLanguage(language);
-  }
-});
+// buttons.addEventListener("click", (e) => {
+//   const language = e.target.dataset.language;
+//   if (language) {
+//     changeLanguage(language);
+//   }
+// });
 
 window.addEventListener("DOMContentLoaded", () => {
   footerCopy.textContent = `TnlComputer ${new Date().getFullYear()}`;
