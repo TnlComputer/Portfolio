@@ -255,6 +255,9 @@ body.dark {
 .skills__bar--99::after {
   --skill-bar-length: 99%;
 }
+.skills__bar--100::after {
+  --skill-bar-length: 100%;
+}
 
 .icon {
   margin-right: 1em;
